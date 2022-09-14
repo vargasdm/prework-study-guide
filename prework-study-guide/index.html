@@ -17,8 +17,31 @@
       <section class="card" id="html-section">
         <h2>HTML</h2>
         <ul>
-          <li>The head element conatins information about the webpage</li>
+          <li>The head element conatins information about the webpage, and is not visible to the user</li>
+          <li>The !DOCTYPE is a declaration that tells the browser what document type it should expect when it is opened</li>
+          <li>The html element represents the start of the HTML document</li>
+          <li>The head element contains metadata that helps the browser render the webpage correctly. Within this element you can use meta tags like: title, style, base, link, meta, and script</li>
+          <li>The title meta tag defines the title for the webpage. It is required and VERY important for Search Engine Optimization</li>
+          <li>The style meta tag defines the CSS styles associated with the webpage</li>
+          <li>The base meta tag defines the base URL for the website</li>
+          <li>The link meta tag connects and external source to the HTML document</li>
+          <li>The script meta tag embeds client side scripts in the html document</li>
+          <li>The meta meta tag defines metadata such as character set (charset), description, keywords, authors, viewport (sets default view of the webpage) (contains all of the info about the webpage used by the browser</li>
+          <br />
           <li>The body element represents the visible content shown to the user</li>
+          <li>When working with cvisible html elements, the content is contained between opening and closing tags (the closing tag is indicated by the forward slash, ex. /head)</li>
+          <li>An element refers to the the entire element, a tag refers to what is between the angle brackets</li>
+          <li>h1-h6 elements represent the level of heading a given text block has. h1 being the largest and h6 being the smallest. These should always be used in order, and h1 should only be used once per page</li>
+          <li>The p element represents a paragraph or block of text</li>
+          <li>The ul element represents and unordered list (will show up as bullet points)</li>
+          <li>The ol element represents and ordered list (will show up as numbered list)</li>
+          <li>The li element represents the items in a list</li>
+          <li>The img element contains info about images displayed on the webpage. The img element can contain attributes. For example scr, which defines the location of the image, and alt, which contains a text string that describes the appearance and function of an image.</li>
+          <li>The br element creates a line of empty space, or a line break, between blocks of text</li>
+          <li>The a (anchor) element creates links to the same or other webpages. The href attribute points tot eh URL for the link</li>
+          <li>The section elements are semantic elements that define a section in a document</li>
+          <li>The main element represents the dominant content of the body element</li>
+          <li>The footer element appears at the bottome of the page and usually contains author, copyright, contact, sitemap, and navigation of the website</li>
         </ul>
         </section>
 
@@ -34,8 +57,13 @@
         <section class="card" id="git-section">
           <h2>Git</h2>
           <ul>
+            <li>git pull origin main: pulls the main branch data from the remote repo in GitHub to the local environment on your PC. It makes sure that you local environment is synced with the GttHub repository. This command should be used before making changes to the main branch and after commiting changes to the working branch</li>
             <li>git status: checks what branch we are currently on</li>
+            <li>git checkout "branch name": used to switch between branches</li>
             <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+            <li>git add -A: adds the modifications you made to the staging area (the staging area informs Git that the changes that have been made will be added in the next commit). The -A indicates that we want to add all of the modifications to the staging area.</li>
+            <li>git commit -m: commits the staged content as a new commit snapshot. The -m indicates a message that will describe the changes that were made in the commit. Message must be in quotations</li>
+            <li>git push origin "name of working branch": pushes all of the changes to the remote repository to await merging to main branch</li>
           </ul>
         </section>
 
