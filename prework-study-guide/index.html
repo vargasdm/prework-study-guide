@@ -11,6 +11,7 @@
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
 
 
@@ -30,19 +31,19 @@
           <li>The meta meta tag defines metadata such as character set (charset), description, keywords, authors, viewport (sets default view of the webpage) (contains all of the info about the webpage used by the browser</li>
           <br />
           <li>The body element represents the visible content shown to the user</li>
-          <li>When working with cvisible html elements, the content is contained between opening and closing tags (the closing tag is indicated by the forward slash, ex. /head)</li>
+          <li>When working with visible html elements, the content is contained between opening and closing tags (the closing tag is indicated by the forward slash, ex. /head)</li>
           <li>An element refers to the the entire element, a tag refers to what is between the angle brackets</li>
           <li>h1-h6 elements represent the level of heading a given text block has. h1 being the largest and h6 being the smallest. These should always be used in order, and h1 should only be used once per page</li>
           <li>The p element represents a paragraph or block of text</li>
           <li>The ul element represents and unordered list (will show up as bullet points)</li>
           <li>The ol element represents and ordered list (will show up as numbered list)</li>
           <li>The li element represents the items in a list</li>
-          <li>The img element contains info about images displayed on the webpage. The img element can contain attributes. For example scr, which defines the location of the image, and alt, which contains a text string that describes the appearance and function of an image.</li>
+          <li>The img element contains info about images displayed on the webpage. The img element can contain attributes. For example src, which defines the location of the image, and alt, which contains a text string that describes the appearance and function of an image.</li>
           <li>The br element creates a line of empty space, or a line break, between blocks of text</li>
-          <li>The a (anchor) element creates links to the same or other webpages. The href attribute points tot eh URL for the link</li>
+          <li>The a (anchor) element creates links to the same or other webpages. The href attribute points to the URL for the link</li>
           <li>The section elements are semantic elements that define a section in a document</li>
           <li>The main element represents the dominant content of the body element</li>
-          <li>The footer element appears at the bottome of the page and usually contains author, copyright, contact, sitemap, and navigation of the website</li>li>The link element creates a connection to the external file</li>
+          <li>The footer element appears at the bottom of the page and usually contains author, copyright, contact, sitemap, and navigation of the website. The link element creates a connection to the external file</li>
           <li>The link element creates a connection to the external file</li>
           <li>The rel attribute specifies the relationship between the current document and the linked document</li>
           <li>The href attribute specifies the location (URL) of the external file. This attribute uses relative pathing (uses pathing to the external file based on the location of the current file)</li>
@@ -55,18 +56,19 @@
           <ul>
             <li>A margin indicates how much space we want around the outside of an element. The margin indicates the space above and below the element. The auto value assigns the same margin value to the left and right sides</li>
             <li>A padding indicates how much space we want around the content inside an element.</li>
+            <li>CSS Box Model:</li>
             <img src="./assets/CSS_box_model_diagram.png" alt="Diagram of CSS Box Model."/>
             <li>CSS class rule:</li>
             <img src="./assets/CSS_rule_diagram.png" alt="Diagram of CSS rule."/>
             <li>The selector defines the elements or attributes we want the declarations to apply to</li>
             <li>The delcaration contains 2 components. The property we want to apply (ex. color) and the value for that property (ex. blue) </li>
-            <li>If we want to aply a rule to all the visible elements on a page, the * symbol is used</li>
+            <li>If we want to apply a rule to all the visible elements on a page, the * symbol is used</li>
             <li>You can combine multiple selectors into a single CSS rule by using a comma</li>
-            <li>he img selector assigns property values to any image in the markup</li>
+            <li>The img selector assigns property values to any image in the markup</li>
             <li>When the display property is assigned with the block value, this makes it so each image is started  on a new line</li>
             <li>We place the link to our style sheet in the head element section because that is where the metadata info goes</li>
             <li>if a period is placed before the selector name it designates the selector as a class selector. Any HTML element assigned to this class will gain property assignments from the CSS</li>
-            <li>The box-shadow property adds shadow effects around the element's frame. Thius property is explained by x and y offsets. The x offset defines the width of the shadow on the x axis (or to the right of the box).The y offset defines the width of the shadow on the y axis (or below the box)</li>
+            <li>The box-shadow property adds shadow effects around the element's frame. This property is explained by x and y offsets. The x offset defines the width of the shadow on the x-axis (or to the right of the box).The y offset defines the width of the shadow on the y-axis (or below the box)</li>
           </ul>
         </section>
 
@@ -88,7 +90,39 @@
         <section class="card" id="javascript-section">
           <h2>Javascript</h2>
           <ul>
-            <li>Enter you Javascript notes here</li>
+            <li>Variables: containers that store values. Can use the keyword var to declar a variable, followed by the name of the variable. ex. var shapes;</li>
+            <li>you can give a variable a value after creating the variable, or you can declare a variable and assign it a value at the same time. ex. var shapes = circle;</li>
+            <li>You can retreive a variables value by calling the variables name. ex shapes;</li>
+            <li>Semicolns  at the end indicate the end of a statement. They are only required when you need to separate statements on a single line</li>
+            <li>The data type string is a sequence of text. To signify that a value is a string enclose it in quotation marks. ex shapes = "circle";</li>
+            <li>The data type number is a number</li>
+            <li>The data type boolean is a true/false values. The words true/false are special words that don't need quotations</li>
+            <li>Comments are pieces of text that can be added to code. To comment a block of text add /* before the comment, and */ after the comment. Or just press ctrl /</li>
+            <li>Operators are mathematical symbols that produce a result based on two values or variables</li>
+            <li>The addition operator (+) adds numbers or combines strings. ex 1+2 will equal 3 or "Hello" + "World" will equal "Hello World"</li>
+            <li>The assignement operator (=) assigns a value to a variable</li>
+            <li>The strict equality operator (===) performs a test to see if two values are equal. It returns a boolean result. not (!) and does not equal (!==) operators retuen the logically opposite of a strict equality operator</li>
+            <li>Functions are a way of packaging functionality that you want to reuse. Makes it so you don't have to rewrite code that performs the same function. If you see a variable that ends in (), it is a function. Functions take arguments (data need to perform the function). If there are multiple arguments, they are separated by commas ex. for loops</li>
+            <li>JS has dynamic typing, which means any variable can be assigned a value of any data type</li>
+            <li>JS is also weakly typed so it allows implicit type conversions when an operation involves mismatched data types. ex. const foo = 50, constresult = foo + 1 will result in 501 </li>
+            <li>console.log method is used to output a message to the web console by adding an argument. ex. console.log(shapes) will log the shapes value in the webpage console</li>
+            <li>JS files are linked in the body of the HTML document using the same link element as the CSS file</li>
+            <li>The control flow is the order in which a computer executes code in a script. In JS it is executed from top to bottom so the ORDER MATTERS</li>
+            <li>Conditional statements are code structures used to test if an expresstion returns true or not. ex. if statements</li>
+            <li>if statements are code that will only be executed if the statement that meets a condition of the statement is truthy. The code in the if statement will not be executed of the value that is being assesed by the condition is falsy</li>
+            <li>A value is falsy if the value is 0, -0, On, "", null, undefined, NaN, or false. All other values are truthy</li>
+            <li>Array: a subgle variable used to hold a group of data. Arrays in JS are zero indexed and sequential, which means that the first item in the array has an index of 0 and every item after has an index that increases by 1. Arrays can hold multiple data types. To create an array, declare a variable and assign multiple values to it in brackets, separated by commas</li>
+            <li>To access a certain piece of data within an array we need ot use the array index. The index is the location of a piece of data within an array. The index of a piece of data is assigned based on the order that the items in the array are stored. console.log(shapes[0]); will return the first item in the shapes array</li>
+            <li>for loops us the pattern of indicies in an array (0 indexed and sequential) to perform a task on all the items in an array by executing a single block of text mutiple times. Conditional statements must be used to interrupt the control flow of the loop</li>
+            <li>In order to use a for loop we need the  array's index and the length of the array. The length is important because it will let the for lop know how many times the code nwill need to be ran before there are no more items ub the array. We can find the length of an array by using the length property. ex. shapes.length</li>
+            <li>a for loop contains the keyword "for" and 3  important statements.</li>
+            <li>      1. The starting point of the for loop: where you want to start the array, usually index [0].</li>
+            <li>      2. The condition: a statement that as long as it is met, the loop will keep going</li>
+            <li>      3. A variable that allows the array to iterate over each item. x is usually used and x++ is a shortcut for x+1. Everytime the code it looped, as long as the condtion is met, the variable x will increase in number by 1 each time</li>
+            <li>      ex. for (var x - 0; x < shapes.length; x++) {
+                              code block 
+                          }</li>
+                          <li>The x is like a counter that helps keep track of where we are in the array and how many times we have looped</li>
           </ul>
         </section>
     </main>
@@ -96,5 +130,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
