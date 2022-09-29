@@ -12,11 +12,7 @@ N/A
 
 This webpage can be used to review notes that I have taken as I was going through the prework material. TO review the notes, open the webpage containing the four topics: HTML, CSS, Git, and JavaScript. For suggestions on what to study first, open the Chrome DevTools by pressing Command+Option+I (macOS) or Control+Shift+I (Windows). A console panel should open either below or to the side of the webpage in the browser. There you will see a list of topics we learned from the prework along with a suggestion on which topic to study first.
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
-![prework_study_guide_usage](prework-study-guide\assets\prework_study_guide_usage.png)
+![prework study guide](C:\Users\Owner\bootcamp\prework-study-guide\prework-study-guide\assets\prework_study_guide_usage.png)
 
 ## Credits
 
