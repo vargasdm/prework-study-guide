@@ -20,4 +20,4 @@ N/A
 
 ## License
 
-An MIT license was used for this project.
+An MIT license is used for this project.
